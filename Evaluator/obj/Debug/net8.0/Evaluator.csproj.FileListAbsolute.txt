@@ -1,0 +1,14 @@
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\bin\Debug\net8.0\Evaluator.exe
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\bin\Debug\net8.0\Evaluator.deps.json
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\bin\Debug\net8.0\Evaluator.runtimeconfig.json
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\bin\Debug\net8.0\Evaluator.dll
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\bin\Debug\net8.0\Evaluator.pdb
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.AssemblyInfoInputs.cache
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.AssemblyInfo.cs
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.csproj.CoreCompileInputs.cache
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.dll
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\refint\Evaluator.dll
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.pdb
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.genruntimeconfig.cache
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\ref\Evaluator.dll
