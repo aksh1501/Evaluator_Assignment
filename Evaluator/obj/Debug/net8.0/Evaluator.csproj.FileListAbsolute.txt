@@ -12,3 +12,4 @@ c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\r
 c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.pdb
 c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.genruntimeconfig.cache
 c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\ref\Evaluator.dll
+c:\Users\akshi\OneDrive\Desktop\Documents\Evaluator\Evaluator\obj\Debug\net8.0\Evaluator.sourcelink.json

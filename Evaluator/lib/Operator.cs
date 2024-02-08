@@ -3,38 +3,86 @@ using System;
 
 namespace Operator
 {
-
-    class OperatorC : IExpression
+    interface IOperator : IExpression
     {
-        private char action;
+    }
+
+    class Add: IOperator
+    {
         private IExpression leftExp;
         private IExpression rightExp;
 
-        public OperatorC(char op,IExpression left,IExpression right)
+        public Add(IExpression leftExp, IExpression rightExp)
         {
-            this.action=op;
-            leftExp=left;
-            rightExp=right;
+            this.leftExp=leftExp;
+            this.rightExp=rightExp;
+        }
+
+        public double eval(){
+            return leftExp.eval() + rightExp.eval();
+        }
+    }
+
+    class Subtract: IOperator
+    {
+        private IExpression leftExp;
+        private IExpression rightExp;
+
+        public Subtract(IExpression leftExp, IExpression rightExp)
+        {
+            this.leftExp=leftExp;
+            this.rightExp=rightExp;
         }
 
         public double eval()
         {
-            switch(action)
-            {
-                case '+' : return leftExp.eval()+rightExp.eval();
-                case '*' : return leftExp.eval()*rightExp.eval();
-                case '-' : return leftExp.eval()-rightExp.eval();
-                case '/' : 
-                if(rightExp.eval()==0)
-                {
-                    throw new DivideByZeroException("Invalid Operation : Division by Zero");
-                }
-
-                return leftExp.eval()/rightExp.eval();
-
-                default : throw new Exception("Invalid Operation : Operator nogt supported");
-            }  
-
+            return leftExp.eval() - rightExp.eval();
         }
-}
+    }
+
+
+    class Multiply: IOperator
+    {
+        private IExpression leftExp;
+        private IExpression rightExp;
+
+        public Multiply(IExpression leftExp, IExpression rightExp)
+        {
+            this.leftExp=leftExp;
+            this.rightExp=rightExp;
+        }
+
+        public double eval()
+        {
+            return leftExp.eval() * rightExp.eval();
+        }
+    }
+
+
+    class Divide: IOperator
+    {
+        private IExpression leftExp;
+        private IExpression rightExp;
+
+        public Divide(IExpression leftExp, IExpression rightExp)
+        {
+            this.leftExp=leftExp;
+            this.rightExp=rightExp;
+        }
+
+        public double eval()
+        {
+            try
+            {
+                return leftExp.eval()/rightExp.eval();
+            }
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine("Invalid Operation : Division by Zero" + e);
+            }
+            
+            return 0;
+        }
+    }
+
 }
